@@ -1,0 +1,143 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: black;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    width: 100px;
+}
+
+.list-menu{
+    margin: auto; 
+}
+
+a{
+    font-size: 20px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+#vantagens{
+    display: flex;
+    justify-content: center;
+}
+
+#product-list{
+    display: flex;
+	justify-content: space-between;
+	margin: 500px;
+    margin-top: 10px;
+}
+
+#product{
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+#product-title{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-top: 45px;
+    font-weight: bold;
+}
+
+#product-price{
+    color: blue;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+
+.button-details{
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: #729599;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+#block{
+    width: 220px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main{
+    display: grid;
+    flex-wrap: wrap;
+}
+
+#form-box {
+    margin: auto;
+    background-color: white;
+    max-width: 860px;
+    height: 425px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-top: -400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: #729599;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 488px;
+}
+
+footer{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+#footer-text{
+    color: #ccc;
+    margin-left: 500px;
+}
